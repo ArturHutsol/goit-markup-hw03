@@ -60,8 +60,7 @@ img {
 /* ----------- HEADER -----------*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-nav {
@@ -82,7 +81,6 @@ img {
 }
 
 .header-logo-color {
-  display: flex;
   font-family: 'Raleway', sans-serif;
   color: #2e2f42;
   font-size: 18px;
