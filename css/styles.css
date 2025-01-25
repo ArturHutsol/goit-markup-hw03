@@ -64,6 +64,11 @@ img {
   padding-bottom: 24px;
 }
 
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -94,8 +99,14 @@ img {
 
 .header-menu-list {
   display: flex;
-  margin-right: auto;
-  gap: 40px;
+}
+
+.header-menu-item {
+  margin-right: 40px;
+}
+
+.header-menu-item:last-child {
+  margin-right: 0;
 }
 
 .header-menu-link {
@@ -124,7 +135,14 @@ img {
 
 .header-address-list {
   display: flex;
-  gap: 40px;
+}
+
+.header-address-item {
+  margin-right: 40px;
+}
+
+.header-address-item:last-child {
+  margin-right: 0;
 }
 
 .header-address-link {
