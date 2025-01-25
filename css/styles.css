@@ -234,7 +234,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .team-list {
@@ -244,7 +244,7 @@ img {
 
 .team-list-item {
   background-color: #ffffff;
-  width: calc(100% - 72px) / 4;
+  width: calc ((100% - 72px) / 4);
 }
 
 .team-image {
@@ -257,7 +257,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
 }
 
 .team-text-job {
