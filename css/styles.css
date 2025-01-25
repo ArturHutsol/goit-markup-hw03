@@ -64,7 +64,7 @@ img {
   padding-bottom: 24px;
 }
 
-.container-header {
+.container header {
   display: flex;
   align-items: center;
 }
@@ -84,7 +84,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 .header-logo-color {
