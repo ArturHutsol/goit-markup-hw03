@@ -133,6 +133,11 @@ img {
 }
 
 .header-address-item {
+  margin-right: 40px;
+}
+
+.header-address-item:last-child {
+  margin-right: 0;
 }
 
 .header-address-link {
