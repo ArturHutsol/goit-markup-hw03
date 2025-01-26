@@ -173,7 +173,7 @@ img {
 .hero-btn {
   display: block;
   min-width: 169px;
-  height: 56px;
+  min-height: 56px;
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -183,6 +183,8 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  padding: 16px 32px;
+  margin: 0 auto;
 }
 
 .hero-btn:hover {
