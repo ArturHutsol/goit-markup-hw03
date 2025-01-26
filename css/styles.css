@@ -304,13 +304,19 @@ img {
 }
 .portfolio-list-item {
   width: calc((100% - 120px)) / 6;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .portfolio-image {
   object-fit: cover;
   margin-bottom: 16px;
+}
+
+.text-container {
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .portfolio-cardtext-top {
