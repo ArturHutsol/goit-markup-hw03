@@ -60,14 +60,9 @@ img {
 /* ----------- HEADER -----------*/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.container header {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-nav {
@@ -89,6 +84,7 @@ img {
 }
 
 .header-logo-color {
+  display: flex;
   font-family: 'Raleway', sans-serif;
   color: #2e2f42;
   font-size: 18px;
@@ -130,6 +126,11 @@ img {
 }
 
 .header-address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-address-item {
   display: flex;
   gap: 40px;
 }
@@ -319,7 +320,8 @@ img {
 
 .text-container {
   border: 1px solid #e7e9fc;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32 px;
   border-top: none;
   display: flex;
   flex-direction: column;
