@@ -67,12 +67,12 @@ img {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .header-logo {
@@ -98,7 +98,6 @@ img {
 
 .header-menu-list {
   display: flex;
-  margin-right: auto;
   gap: 40px;
 }
 
@@ -129,15 +128,11 @@ img {
 
 .header-address-list {
   display: flex;
+  margin-left: auto;
   gap: 40px;
 }
 
 .header-address-item {
-  margin-right: 40px;
-}
-
-.header-address-item:last-child {
-  margin-right: 0;
 }
 
 .header-address-link {
