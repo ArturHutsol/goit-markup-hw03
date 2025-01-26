@@ -312,7 +312,7 @@ img {
 
 .text-container {
   border: 1px solid #e7e9fc;
-  padding: 32px 16px;
+  padding: 32px 0;
   border-top: none;
   display: flex;
   flex-direction: column;
