@@ -268,7 +268,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-text-job {
@@ -304,16 +304,22 @@ img {
 }
 .portfolio-list-item {
   width: calc((100% - 120px)) / 6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .portfolio-image {
+  object-fit: cover;
+  margin-bottom: 16px;
 }
+
 .portfolio-cardtext-top {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .portfolio-cardtext-bottom {
   color: #434455;
