@@ -65,6 +65,12 @@ img {
   padding-bottom: 24px;
 }
 
+.header-container {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -116,7 +122,6 @@ img {
 }
 
 .header-address {
-  display: flex;
   font-style: normal;
   color: #434455;
   font-size: 16px;
@@ -301,7 +306,6 @@ img {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding: 32px 16px;
 }
 .portfolio-list {
   background-color: #ffffff;
