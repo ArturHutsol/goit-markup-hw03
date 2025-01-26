@@ -264,7 +264,6 @@ img {
 
 .team-image {
   object-fit: cover;
-  margin-bottom: 16px;
 }
 
 .text-container-team {
@@ -318,7 +317,6 @@ img {
 }
 .portfolio-image {
   object-fit: cover;
-  margin-bottom: 16px;
 }
 
 .text-container-portfolio {
@@ -373,7 +371,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
