@@ -73,6 +73,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -209,7 +210,7 @@ img {
 }
 
 .features-list-item {
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-item-subtitle {
@@ -254,7 +255,7 @@ img {
 
 .team-list-item {
   background-color: #ffffff;
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   display: flex;
   flex-direction: column;
