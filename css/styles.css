@@ -264,9 +264,9 @@ img {
   margin-bottom: 16px;
 }
 
-.text-container {
+.text-container-team {
   padding: 32px 0;
-  align-items: center;
+  text-align: center;
 }
 
 .team-text-name {
@@ -318,7 +318,7 @@ img {
   margin-bottom: 16px;
 }
 
-.text-container {
+.text-container-portfolio {
   border: 1px solid #e7e9fc;
   border-top: none;
   display: flex;
