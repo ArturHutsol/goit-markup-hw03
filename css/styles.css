@@ -249,10 +249,16 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
 }
 
 .team-image {
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.text-container {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .team-text-name {
